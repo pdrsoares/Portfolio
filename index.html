@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Pedro Soares</div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre" class="dev container fade-in">
+            <div class="dev-txt">
+                <h1>Pedro Soares</h1>
+                <h3>Cursando Análise e Desenvolvimento de Sistemas - FATEC - SJC</h3>
+                <p>Sou um estudante de tecnologia apaixonado por desenvolvimento de software, com uma ligeira preferência por front-end, pronto para exercer minha criatividade e te ajudar como puder.</p>
+                <a class="bt-contato" href="contato">Entre em contato!</a>
+            </div>
+            <div class="dev-img">
+                <img src="./img/predo.jfif">
+            </div>
+        </section>
+        <section id="skills" class="container fade-in">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skills-item">
+                    <h3>Linguagens</h3>
+                    <p> Python, JavaScript, SQL, HTML e CSS</p>
+                </div>
+                <div class="skills-item">
+                    <h3>Frameworks</h3>
+                    <p> Node.js, Flask</p>
+                </div>
+                <div class="skills-item">
+                    <h3>Ferramentas</h3>
+                    <p> Git, Docker, MySQL, AWS</p>
+                </div>
+            </div>
+        </section>
+        <section id="projetos" class="container fade-in">
+            <h2>Projetos</h2>
+            <div class="projetos-grid">
+                <div class="projeto-card">
+                    <div class="img1"><img src="./img/site1.png"></div>
+                    <h4 class="titulo-projeto">PDR University</h4>
+                    <p>O projeto consiste em um desafio de programar um site de uma faculdade fictícia, contendo 3 páginas e flexbox em todas elas.</p>
+                    <div class="projeto-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="projeto-card">
+                    <div class="img2"><img src="./img/site2.png"></div>
+                    <h4 class="titulo-projeto">Movelaria Santa Fé</h4>
+                    <p>O objetivo do projeto é criar um site para uma empresa real, no caso a Movelaria Santa Fé, e treinar as habilidades em bootstrap e JavaScript, precisando conter pelo menos 8 elementos do framework</p>
+                    <div class="projeto-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="projeto-card">
+                    <div class="img3"><img src="./img/site3.png"></div>
+                    <h4 class="titulo-projeto">Site Scrum</h4>
+                    <p>O projeto consiste em criar um site sobre a metodologia scrum, feito em grupo</p>
+                    <div class="projeto-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Flask</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="contato fade-in">
+            <h2 class="titulo-ctt">Contato:</h2>
+            <form class="contato-form">
+                <div class="gp-form">
+                    <label for="nome">Nome:</label>
+                    <input id="nome" name="nome" required>
+                </div>
+                <div class="gp-form">
+                    <label for="email">E-mail:</label>
+                    <input id="email" name="email" required>
+                </div>
+                <div class="gp-form">
+                    <label for="msg">Mensagem:</label>
+                    <textarea id="msg" name="msg" required></textarea>
+                </div>
+                <button type="submit">Mandar Mensagem</button>
+            </form>
+        </section>
+        <footer>
+            <a href="https://github.com/pdrsoares" target="_blank" rel="noopener noreferrer"><img src="./img/githubicon.png"></a>
+            <a href="https://www.linkedin.com/in/pedro-soares-276206292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener boreferrer"><img src="./img/linkedinicon.png"></a>
+            <p>&copy; 2024 Pedro Soares. Todos os direitos reservados</p>
+        </footer>
+    </main>
+    
+</body>
+</html>
